@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+    padding: 10px;
+
+}
+
+.box {
+
+    max-width: 250px;
+    margin: 100px auto 30px;
+    border: 2px solid #4e085f;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(10px);
+    border-radius: 30px;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+
+p {
+    margin-top: 15px;
+    color: azure;
+    font-size: 16px;
+
+}
+
+input {
+    display: block;
+    height: 15px;
+    border-radius: 25px;
+    padding: 7px;
+    width: 100%;
+    margin-bottom: 5px;
+    background: transparent;
+    font-size: 14px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 25px;
+    font-size: large;
+    font-weight: 600;
+    padding: 5px;
+}
+
+button:hover {
+    background-color: rgba(254, 255, 250, 0.69);
+}
+
+ul {
+    list-style: none;
+
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 25px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.27);
+
+}
+
+li:hover {
+    background-color: rgba(254, 255, 250, 0.69);
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: azure;
+}
+
+a:hover {
+    color: #153677;
+    font-weight: 600;
+}
+
+
+.content {
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
